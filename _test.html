@@ -4,14 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #p1{
+            color: red;
+        }
+        p {
+            color: green;
+        }
+        p.lucky{
+            color: blue;
+        }
+    </style>
 </head>
 <body>
 
-<table border="1px" width="70%">
-    <tr><td>1-1</td><td colspan="2">1-2</td></tr>
-    <tr><td rowspan="2">2-1</td><td>2-2</td><td>2-3</td></tr>
-    <tr><td>3-2</td><td>3-3</td></tr>
-</table>
+    <h1 class="lucky">Heading</h1>
+
+    <table border="1px" width="70%">
+        <tr><td>1-1</td><td colspan="2">1-2</td></tr>
+        <tr><td rowspan="2">2-1</td><td>2-2</td><td>2-3</td></tr>
+        <tr><td>3-2</td><td>3-3</td></tr>
+    </table>
+
+    <p id="p1" class="lucky">This is paragraph 1.</p>
+    <p>This is paragraph 2.</p>
+    <p class="lucky">This is paragraph 3.</p>
+    <p>This is paragraph 4.</p>
+    <p class="lucky">This is paragraph 5.</p>
+    <p>This is paragraph 6.</p>
 
 </body>
 </html>
