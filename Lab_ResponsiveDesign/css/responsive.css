@@ -9,7 +9,7 @@
     }
 
 	div.one-third-last {
-        clear: both;
+        clear: both; /* 這個屬性的效果就是把float屬性的效果消除 */
         float: none;
         width: auto;
         padding: 20px 0 0 0;
